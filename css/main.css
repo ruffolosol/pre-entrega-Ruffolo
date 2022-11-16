@@ -1,0 +1,78 @@
+ /*MediaQueries*/
+ @media screen and (max-width: 700px){
+    body{
+        background-color: dimgray;
+    }
+ }
+ @media screen and (max-width: 1200px){
+    body{
+        background-color: whitesmoke;
+    }
+}
+ /*------------------------*/
+ /*Reseteo de margenes*/
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing:border-box;
+}
+ /*estilos del header*/
+header{
+    padding: 20px;
+}
+head body header h1{
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+ /*estilos del body*/
+body{
+    padding: 20px;
+}
+.bordes{
+    margin: 150px;
+    width: 150px;
+}
+.tamaño{
+    font-size: 30px;;
+}
+.contenido-general img{
+    width: 500px;
+    height: 300px;
+    padding: 10px;  
+}
+ .contenido-general .imagenPequeña{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+ }
+.contenedor{
+    border: 5px;
+    color: black;
+    margin: 20px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+.contenido-general .contenido{
+    display: grid;
+
+}
+.contenido-general{
+    display: grid;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.img-chica{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
