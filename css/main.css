@@ -1,7 +1,7 @@
  /*MediaQueries*/
  @media screen and (max-width: 700px){
     body{
-        background-color: dimgray;
+        background-color: rgb(228, 13, 13);
     }
  }
  @media screen and (max-width: 1200px){
